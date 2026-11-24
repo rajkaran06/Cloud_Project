@@ -10,7 +10,7 @@
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 This repository contains the complete implementation of a **Distributed Visitor Counter Web Application** developed for the 3rd-Year B.Tech Computer Science and Engineering Cloud Computing curriculum. 
 
@@ -23,7 +23,7 @@ The application demonstrates real-world enterprise cloud architecture principles
 
 ---
 
-## 🏛️ System Architecture
+##  System Architecture
 
 ```mermaid
 flowchart TD
@@ -79,7 +79,7 @@ flowchart TD
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 ├── src/
@@ -112,7 +112,7 @@ flowchart TD
 
 ---
 
-## 🚀 Execution & Verification Guide
+##  Execution & Verification Guide
 
 ### Phase 1: Local Docker Compose Setup
 Run the application locally without Kubernetes:
@@ -195,7 +195,7 @@ kubectl scale deployment flask-deployment -n private-cloud --replicas=0
 
 ---
 
-## 💰 Cost Optimization Summary
+##  Cost Optimization Summary
 
 | Technique | Baseline (Before) | Optimized (After) | Measured Savings |
 |---|---|---|---|
@@ -207,8 +207,3 @@ kubectl scale deployment flask-deployment -n private-cloud --replicas=0
 *Detailed calculations and formulas available in [docs/COST_OPTIMIZATION_REPORT.md](docs/COST_OPTIMIZATION_REPORT.md).*
 
 ---
-
-## 🎓 Academic Viva Resources
-
-Comprehensive examination notes covering Docker vs VMs, Pod lifecycle, CAP theorem, split-brain syndromes, and Kubernetes controller algorithms are provided in:
-📚 **[docs/COLLEGE_VIVA_PREPARATION.md](docs/COLLEGE_VIVA_PREPARATION.md)**
